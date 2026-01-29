@@ -30,3 +30,36 @@ int main ()
     return 0;
 }
 */
+
+//questao 2
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int vetor[10];
+    int i, tamanho = 10, positivo=0, soma=0;
+
+    cout << "Digite 10 valores reais: ";
+    for (i = 1; i < tamanho; i++){
+    cin >> vetor[i];
+    }
+
+    for (i=1;i<10;i++){
+    if (vetor[i] >= 0)
+    positivo++;
+    }
+    for (i=1;i<10;i++){
+    if (vetor[i] < 0)
+    soma += vetor[i];
+    }
+    for (i=9;i>0;i--){
+    if (vetor[i] > 0)
+    cout << vetor[i] << " " << endl;
+    }
+    cout << positivo << endl << soma;
+    return 0;
+
+}
+
