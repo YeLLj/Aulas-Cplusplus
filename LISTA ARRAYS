@@ -1,0 +1,32 @@
+// questão 1
+/*
+#include <iostream>
+using namespace std;
+int main ()
+
+{
+    int vetor [10];
+    int i = 0 , tamanho = 10, cara = 0, coroa = 0;
+
+    cout << "Digite 1 para CARA e 2 para COROA: ";
+    for (i=0 ; i < tamanho ; i++)
+    cin >> vetor [i];
+
+    for (i = 0; i < 10; i++) {
+        
+        if (vetor[i] == 1){
+            cara++;
+        }
+        else{ 
+            coroa++;
+        }
+
+        
+        
+    }
+
+    cout << cara << endl << coroa;
+
+    return 0;
+}
+*/
